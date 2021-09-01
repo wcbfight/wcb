@@ -214,11 +214,7 @@ padding:0 6px;
 }
 .helper-center-topic ul li{
   cursor: pointer;
-  // flex: 1;
-  max-width: 360px;
-  min-width: 300px;
-  width: 26%;
-  // height:72px;
+  width: 344px;
   line-height: 24px;
   padding: 24px;
   margin-right:32px;
@@ -258,10 +254,14 @@ padding:0 6px;
 }
 
 .helper-center-article-ul .header{
-  height: 126px;
+  height: 146px;
   border-bottom: 1px solid #000;
   color:#20133A;
   font-weight: bold;
+}
+.helper-center-article-ul p {
+  margin-top:25px;
+  color:#42435A ;
 }
 
 .helper-center-bottom{
