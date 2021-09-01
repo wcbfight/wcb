@@ -25,6 +25,9 @@ button{
   display: block;
   height:0;
 }
+ul{
+  margin-right:-32px;
+}
 ul li{
   list-style: none;
 }
@@ -214,7 +217,7 @@ padding:0 6px;
   // flex: 1;
   max-width: 360px;
   min-width: 300px;
-  width: 25%;
+  width: 26%;
   // height:72px;
   line-height: 24px;
   padding: 24px;
@@ -240,7 +243,7 @@ padding:0 6px;
 }
 .helper-center-article ul li{
   height:260px;
-  width: 18%;
+  flex:1;
   min-width: 214px;
   margin-right:32px;
   margin-bottom: 36px;
