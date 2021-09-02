@@ -93,7 +93,10 @@ margin-right: 50px;
   font-weight:600;
   margin-top: 3px;
 }
-
+.header-login-wrap .header-login-btn:hover{
+  background: #0060DF;
+  color: #fff;
+}
 .header-login-wrap input{
   width: 248px;
   height:34px;
