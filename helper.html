@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-08-31 15:55:02
- * @LastEditTime: 2021-09-01 16:25:34
+ * @LastEditTime: 2021-09-02 14:52:53
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \新建文件夹\Untitled-1.html
@@ -12,7 +12,8 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="./helper.scss" />
+		<link rel="stylesheet" href="./css/_index.css" />
+		<link rel="stylesheet" href="./css/helper.css" />
 		<link rel="shortcut icon" href="./assets/logo1.ico" type="image/x-icon">
 		<title>Frontend Helper</title>
 	</head>
@@ -31,7 +32,6 @@
 			<div class="header-login-wrap">
 					<input placeholder="输入搜索内容..." type="text" />
 					<button class="search-btn" type="button"></button>
-				<!-- <button class="header-login-btn" type="button">登录 / 注册</button> -->
 			</div>
 		</div>
 		</div>
@@ -63,7 +63,7 @@
 							<span>Frontend Cloud</span>	</span
 						>
 					</div>
-					<div class="mt-20">
+					<div style="margin-top:50px;">
 						<div style="display: flex;justify-content: center;">
 							<img
 								class="helper-center-logo"
@@ -88,16 +88,16 @@
 			<div class="helper-cnt-wrap">
 				<div class="helper-center-topic">
 				<p class="title">常见话题</p>
-				<p class="title2">浏览器知识库</p>
+				<p class="title2">浏览知识库</p>
 				<div class="helper-center-topic-ul">
 					<ul>
-					<li><a href="javascript:void(0)">基本浏览功能</a> </li>
-					<li><a href="javascript:void(0)">安装和更新</a> </li>
-					<li><a href="javascript:void(0)">同步和保存</a> </li>
-					<li><a href="javascript:void(0)">聊天和分享</a> </li>
-					<li><a href="javascript:void(0)">保护您的隐私</a> </li>
-					<li><a href="javascript:void(0)">管理首选项和附加组件</a> </li>
-					<li><a href="javascript:void(0)">解决速度缓慢、崩溃、错误提示及其他问题</a> </li>
+					<li><div class="topic-font-wrap"><span class="topic-font" style="background-image: url(./assets/news.svg);"></span></div><a href="javascript:void(0)">基本浏览功能</a> </li>
+					<li><div class="topic-font-wrap"><span class="topic-font" style="background-image: url(./assets/technology.svg);"></span></div><a href="javascript:void(0)">安装和更新</a> </li>
+					<li><div class="topic-font-wrap"><span class="topic-font" style="background-image: url(./assets/waterflow.svg);"></span></div><a href="javascript:void(0)">同步和保存</a> </li>
+					<li><div class="topic-font-wrap"><span class="topic-font" style="background-image: url(./assets/tecplatform.svg);"></span></div><a href="javascript:void(0)">聊天和分享</a> </li>
+					<li><div class="topic-font-wrap"><span class="topic-font" style="background-image: url(./assets/graduation.svg);"></span></div><a href="javascript:void(0)">保护您的隐私</a> </li>
+					<li><div class="topic-font-wrap"><span class="topic-font" style="background-image: url(./assets/intellgent.svg);"></span></div><a href="javascript:void(0)">管理首选项和附加组件</a> </li>
+					<li><div class="topic-font-wrap"><span class="topic-font" style="background-image: url(./assets/graduation.svg);"></span></div><a href="javascript:void(0)">解决速度缓慢、崩溃、错误提示及其他问题</a> </li>
 					</ul>
 				</div>
 				</div>
@@ -108,7 +108,7 @@
 						<li>
 							<a style="display: block;" href="javascript:void(0)">
 							<div class="header">
-								<div class="el-document" style="width:32px;height:32px;margin-bottom: 14px;"></div>
+								<div class="el-document" style="width:32px;height:32px;margin-bottom: 29px;"></div>
 								<a href="javascript:void(0)">Cloud桌面版的增强跟踪</a></div>
 							<p>
 								Frontend Cloud 的增强跟踪保护在你浏览时自动保护你的隐私。
@@ -154,8 +154,8 @@
 					<img class="helper-center-bottom-img" src="https://static-media-prod-cdn.itsre-sumo.mozilla.net/static/sumo/img/join-our-community.png" alt="Illustration of community">
 					<div class="helper-center-descipt">
 						<p class="title">加入我们的社区</p>
-						<p class="title2">分享知识并培养专业技能。接单问题并改进我们的知识库</p>
-						<a style="font-size: 18px;color: #166DE1;" href="javascript:void(0)">详细了解</a>
+						<p class="title2" style="font-size: 16px;">分享知识并培养专业技能。解答问题并改进我们的知识库</p>
+						<a style="font-size: 16px;font-weight:bold;color: #166DE1;" href="javascript:void(0)">详细了解</a>
 					</div>
 					</div>
 				</div>
@@ -163,7 +163,8 @@
 		</div>
 		<div class="helper-bottom">
 			<div class="helper-cnt-wrap">
-			<div class="helper-bottom-top">
+			<div class="helper-bottom-top-wrap">
+				<div class="helper-bottom-top">
 			<div class="bottom">
 				<h4>Mozilla</h4>
 				<ul>
@@ -189,9 +190,9 @@
 				<ul>
 					<li><a href="javascript:void(0)">报告商标滥用</a> </li>
 					<li><a href="javascript:void(0)">源代码</a> </li>
-					<li><a href="javascript:void(0)">Twitter</a> </li>
-					<li><a href="javascript:void(0)">加入我们的社区</a> </li>
-					<li><a href="javascript:void(0)">浏览帮助文章</a> </li>
+					<li><a href="javascript:void(0)">微信</a> </li>
+					<li><a href="javascript:void(0)">加入我们</a> </li>
+					<li><a href="javascript:void(0)">浏览文档</a> </li>
 				</ul>
 			</div>
 			<div class="bottom">
@@ -200,23 +201,27 @@
 					<li><a href="javascript:void(0)">登录 / 注册</a> </li>
 					<li><a href="javascript:void(0)">好处</a> </li>
 				</ul>
-				<div style="margin-top:25px;">
+				<div style="margin-top:40px;">
 					<ul><li><a style="font-weight: 600;" href="javascript:void(0)">Frontend Cloud Private Network</a></li></ul>
 				</div>
 			</div>
 			<div class="bottom">
-				<h4>语言</h4>
-				<ul>
-					<li><select style="width: 160px;height:40px;padding:0 40px 0 8px ;">
-						<option value ="volvo">Volvo</option>
-						<option value ="saab">Saab</option>
-						<option value="opel">Opel</option>
-						<option value="audi">Audi</option>
-					</select>
-				</li>
-					<li><a href="javascript:void(0)">图</a><a href="javascript:void(0)">图</a><a href="javascript:void(0)">图</a></li>
-				</ul>
+				<div style="float:right;">
+					<h4>语言</h4>
+					<ul style="margin-right: 0;">
+						<li><select style="width: 160px;height:40px;padding:0 40px 0 8px ;">
+							<option value ="volvo">Volvo</option>
+							<option value ="saab">Saab</option>
+							<option value="opel">Opel</option>
+							<option value="audi">Audi</option>
+						</select>
+					</li>
+						<li style="margin-top:4px;"><a href="javascript:void(0)"><span class="sociate-icon sociate-icon-link" style="background-image: url(./assets/QQ.svg);"></span></a><a href="javascript:void(0)"><span class="sociate-icon sociate-icon-link" style="background-image: url(./assets/sociation.svg);"></span></a><a href="javascript:void(0)"><span class="sociate-icon sociate-icon-link" style="background-image: url(./assets/zhihu.svg);"></span></a></li>
+					</ul>
+				</div>
 			</div>
+			</div>
+			
 			</div>
 			<div class="helper-bottom-footer">
 			<div class="bottom-right">
@@ -232,9 +237,10 @@
 				</div>
 			</div>
 			<div class="bottom-left" style="font-size:12px;">
+
 				  <p>欢迎访问<a href="javascript:void(0)">Mozilla Corporation</a>的非营利母公司，<a href="javascript:void(0)">Mozilla 基金会</a>。 </p> 
-				  <p style="margin-top:22px;">上述内容中的某些部分系 mozilla.org 志愿者个人版权所有（©1998–2021）。内容可按，<a href="javascript:void(0)">知识共享许可协议</a>。 </p> 
-			</div>
+				  <p style="margin-top:21px;">上述内容中的某些部分系 mozilla.org 志愿者个人版权所有（©1998–2021）。内容可按，<a href="javascript:void(0)">知识共享许可协议</a>。 </p> 
+				</div>
 			</div>
 		</div>
 		</div>
